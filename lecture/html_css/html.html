@@ -1,0 +1,47 @@
+<!-- HTML 실습 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">header</div>
+  <div class="nav">nav</div>
+  <div class="main">main
+    <div class="article">article</div>
+    <div class="article">article</div>
+  </div>
+  <div class="wrapper">
+    <div class="section">section
+      <div>article</div>
+    </div>
+    <div class="aisde">aside
+      <div>figure
+        <div>img</div>
+        <div>figcation</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">footer</div>
+</body>
+</html>
+<style>
+html{padding: 10px 30px; height: 100%;}
+html, body{ overflow: hidden; box-sizing: border-box;}
+body{height: 100%; margin: 0; overflow: auto; box-sizing: border-box; }
+.header{height: 150px; text-align: center; background-color: aqua; line-height: 150px;}
+.nav{height: 30px; text-align: center; background-color: antiquewhite;}
+.main{height: 250px; background-color: beige;}
+.main > div{width: calc( 50% - 30px ); height: 200px; display: inline-block; position: relative; top: 30px;}
+/* .section{width: 50%; height: 300px; text-align: center; float: left; background-color: brown;}
+.aisde{width: 50%; height: 300px; float: left; background-color: azure;} */
+.wrapper{height: 300px; display: flex;}
+.section{width: 50%; height: 300px; text-align: center; display: inline-block; background-color: brown; box-sizing: border-box;}
+.aisde{width: 50%; height: 300px; text-align: center; display: inline-block; background-color: azure; box-sizing: border-box;}
+.footer{height: 185px; background-color: blueviolet;}
+</style>
