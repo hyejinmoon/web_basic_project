@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #eeeeee;
+}
+.login_box {
+    width: 324px;
+    height: 385px;
+    border: 1px solid #d3d5d6;
+    border-radius: 10px;
+    background-color:#ffffff;
+    position: relative;
+    top: calc(50% - 192.5px);
+    left: calc(50% - 162px); /* 띄어..! */
+}
+img {
+    width: 180px;
+    height: 31px;
+    position: relative;
+    top: 37px;
+    left: calc(50% - 90px);
+}
+
+.text_name {
+    display: inline-block; 
+    height: 40px; 
+    position: relative; 
+    top: 41px; 
+    left: calc(50% - 119.3px); 
+    font-size: 28px; 
+    color: #d8821e;
+}
+
+.text_login {
+    display: inline-block; 
+    height: 40px; 
+    position: relative; 
+    top: 41px; 
+    left: calc(50% - 109.3px); 
+    font-size: 30px; 
+    color: #3c4044;
+}
+
+input {
+    width: 130px;
+    height: 15px;
+}
+
+.input_id {
+    position: relative;
+    top: 72px;
+    left: calc(50% - 92px);
+    font-size: 12px;
+    color: #7d8383;
+
+}
+
+.input_pw {
+    position: relative;
+    top: 79px;
+    left: calc(50% - 94px);
+    font-size: 12px;
+    color: #7d8383;
+
+}
+
+.checkbox{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #7d8383;
+
+}
+
+hr {
+    position: relative;
+    top: 120px;
+    margin: 0 22px;
+    background-color: #e7e7e7;
+    height: 1px;
+    border: 0;
+}
+
+.login_btn {
+    width: 180px;
+    height: 43px;
+    background-color: #eb9837;
+    position: relative;
+    top: 142px;
+    left: calc(50% - 90px);
+    color: #ffffff;
+    font-size: 12px;
+    border: #eb9837;
+}
+
+button:active {
+    background-color: #d8821e;
+}
