@@ -20,11 +20,20 @@
     </div>
     <div class="saveIdZone"><input type="checkbox" name="saveId">아이디 저장</ㅇ></div>
     <div class="divider"></div>
-    <div class="btnWrapper">LOG IN</div>
+    <!-- <div class="btnWrapper" onclick="loginSubmit()">LOG IN</div> -->
+    <div id="loginBtn" class="btnWrapper" >LOG IN</div>
   </div>
 </body>
-
 </html>
+
+<script type="text/javascript">
+  // loginSubmit = function(){
+  //   alert('로그인을 요청했습니다.')
+  // }
+
+  document.getElementById("loginBtn").addEventListener("click", ()=> alert("로그인을 요청했습니다."))
+</script>
+
 <style>
   html, body{ height: 100%;}
   body { background-color: #eee; margin: 0;}
